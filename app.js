@@ -58,3 +58,8 @@ const getActualSleepHours = () =>
 const getIdealSleepHours = (hours) => {
   return hours * 7;
 };
+
+const calculateSleepDebt = () => {
+  let actualSleepHours = getActualSleepHours();
+  let idealSleepHours = getIdealSleepHours(8);
+}
