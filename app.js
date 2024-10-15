@@ -62,4 +62,7 @@ const getIdealSleepHours = (hours) => {
 const calculateSleepDebt = () => {
   let actualSleepHours = getActualSleepHours();
   let idealSleepHours = getIdealSleepHours(8);
+
+    console.log("Amount of sleep this week: " + actualSleepHours);
+    console.log("Ideal amount of sleep for the week: " + idealSleepHours);
 }
