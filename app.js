@@ -45,3 +45,12 @@ function getSleepHours(day) {
       console.log('Must entire a valid day of the week.');
   }*/
 }
+
+const getActualSleepHours = () =>
+  getSleepHours("Monday") +
+  getSleepHours("Tuesday") +
+  getSleepHours("Wednesday") +
+  getSleepHours("Thursday") +
+  getSleepHours("Friday") +
+  getSleepHours("Saturday") +
+  getSleepHours("Sunday");
